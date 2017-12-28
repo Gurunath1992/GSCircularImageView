@@ -14,6 +14,7 @@
 		9BE4D6651FF5520000566C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4D6631FF5520000566C60 /* LaunchScreen.storyboard */; };
 		9BE4D6701FF5520000566C60 /* GSCircularImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4D66F1FF5520000566C60 /* GSCircularImageViewTests.swift */; };
 		9BE4D67B1FF5520000566C60 /* GSCircularImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4D67A1FF5520000566C60 /* GSCircularImageViewUITests.swift */; };
+		9BE4D6891FF554A000566C60 /* GSCircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4D6881FF554A000566C60 /* GSCircularImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9BE4D6761FF5520000566C60 /* GSCircularImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSCircularImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE4D67A1FF5520000566C60 /* GSCircularImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSCircularImageViewUITests.swift; sourceTree = "<group>"; };
 		9BE4D67C1FF5520000566C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE4D6881FF554A000566C60 /* GSCircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSCircularImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9BE4D6611FF5520000566C60 /* Assets.xcassets */,
 				9BE4D6631FF5520000566C60 /* LaunchScreen.storyboard */,
 				9BE4D6661FF5520000566C60 /* Info.plist */,
+				9BE4D6881FF554A000566C60 /* GSCircularImageView.swift */,
 			);
 			path = GSCircularImageView;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				9BE4D65D1FF5520000566C60 /* ViewController.swift in Sources */,
 				9BE4D65B1FF5520000566C60 /* AppDelegate.swift in Sources */,
+				9BE4D6891FF554A000566C60 /* GSCircularImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
