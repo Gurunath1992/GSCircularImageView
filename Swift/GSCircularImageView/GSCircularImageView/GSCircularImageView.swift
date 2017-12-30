@@ -10,6 +10,26 @@ import UIKit
 
 class GSCircularImageView: UIImageView {
     
+    @IBInspectable
+    var borderColor:UIColor{
+        get {
+            return UIColor.blue
+        }
+        set {
+            layer.borderColor = newValue.cgColor
+        }
+    }
+    
+    @IBInspectable
+    var borderWidth:CGFloat{
+        get {
+            return 1.0
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         circularView()
@@ -23,8 +43,8 @@ class GSCircularImageView: UIImageView {
     private func circularView() {
         self.layer.cornerRadius = self.frame.size.width/2
         self.clipsToBounds = true
-        self.layer.borderWidth = 2.0
-        self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderColor = borderColor.cgColor
+        self.layer.borderWidth = borderWidth
     }
     
 }
